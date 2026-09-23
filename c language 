@@ -1,0 +1,10 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{int a,b,c,s;
+printf("Enter three number");
+scanf("%d%d%d",&a,&b,&c);
+s=a+b+c;
+printf("The sum of three number is=%d",s);
+return 0;
+}
